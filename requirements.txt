@@ -11,3 +11,4 @@ black
 click 
 pylint
 pytest
+polars
