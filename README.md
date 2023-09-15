@@ -13,13 +13,13 @@ Files in this repository include:
 
 
 ## 3. Codes
-  This folder contains all the code files used in this repository - the project for this week is _Pandas Descriptive Statistics Script_ , I will be using the Iris dataset for this analysis
+  This folder contains all the code files used in this repository - the project for this week is _Descriptive Statistics Using Polars_ , I will be using the Iris dataset for this analysis
   The code files in this folder are -
    * `Polars_Description.py` - this is a python function to share the description of a dataframe
    * `Polars_Plot.py` - this is a python function to plot a chart from the dataframe and save it as a png file
    * `Test_Week3_Polars.py` - this is a python code to test the functions defined - this function can also be called by the pytest module in the Makefile of the repository.
 
-     ![Make Test Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Successful_Test.png?raw=true)
+     ![Make Test Output](https://github.com/nogibjj/DukeIDS706_ds655_Week03/blob/main/Resources/Week%203%20Successful%20Test.png?raw=true)
 
 
 ## 4. Resources
@@ -27,15 +27,15 @@ Files in this repository include:
   * `iris_dataset` - this is a copy of the iris dataset, in case the link is not accessible (Original link - https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv)
 
   
-  * `plot image.png` - this is the chart plotted using the `pandas_plot.py` script from the Codes folder - this gets automatically saved here every time the code is run
+  * `plot image.png` - this is the chart plotted using the `Polars_Plot.py` script from the Codes folder - this gets automatically saved here every time the code is run
 
 
-    ![Plot Image Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/plot%20image.png?raw=true)
+    ![Plot Image Output](https://github.com/nogibjj/DukeIDS706_ds655_Week03/blob/main/Resources/Data_Plot.png?raw=true)
 
 
-  * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Pandas
+  * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Polars
 
-    ![Summary Screenshot](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Summary_Screenshot.png?raw=true)
+    ![Summary Screenshot](https://github.com/nogibjj/DukeIDS706_ds655_Week03/blob/main/Resources/Week%203%20Summary%20Screenshot.png?raw=true)
 
 
   * This folder also contains all the images used in the README
