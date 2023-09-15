@@ -2,6 +2,8 @@
  
 import polars as pl
 from Polars_Description import PolarsDesc
+from Polars_Plot import PolarsPlot
+
 
 def test_Polars():
     #   Reading Source Data from the Github Link
@@ -15,8 +17,9 @@ def test_Polars():
 
     # Pasting the sample graph in the output folder
     # PandasPlot(df_s)
+    PolarsPlot(df_s)
     #   Reading the Reference Data from the Resources Folder
-    
+
     DataReference_Link = "./Resources/Iris_Data.csv"
     df_r = pl.read_csv(DataReference_Link)
 
