@@ -1,7 +1,4 @@
-#  IDS 706 Week 2 assignment - Creating a function to show descriptive statistics for a dataframe
-# Convert this pandas code to corresponding polars code
-
-import polars as pl
+#  IDS 706 Week 3 assignment - Creating a function to show descriptive statistics for a Polars dataframe
 
 def PolarsDesc(df):
   return df.describe()
