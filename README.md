@@ -1,7 +1,5 @@
-# DukeIDS706_DE Week 02 Assignment [![Python CI](https://github.com/nogibjj/DukeIDS_DE_ds655/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/DukeIDS_DE_ds655/actions/workflows/main.yml)
+# DukeIDS706_DE Week 03 Assignment [![Python CI](https://github.com/nogibjj/DukeIDS_DE_ds655/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/DukeIDS_DE_ds655/actions/workflows/main.yml)
 
-
-This repository is cloned from the template created in Week01 (https://github.com/DivyaSharma0795/DukeIDS706_DE_ds655)
 
 Files in this repository include:
 
@@ -11,15 +9,15 @@ Files in this repository include:
 
 
 ## 2. Requirements
-  The `requirements.txt` file has a list of packages to be installed for any required project. Currently, my requirements file contains some basic python packages, and in addition - Pandas, Seaborn, and Matplotlib
+  The `requirements.txt` file has a list of packages to be installed for any required project. Currently, my requirements file contains some basic python packages, and in addition - Polars, Seaborn, and Matplotlib
 
 
 ## 3. Codes
   This folder contains all the code files used in this repository - the project for this week is _Pandas Descriptive Statistics Script_ , I will be using the Iris dataset for this analysis
   The code files in this folder are -
-   * `Pandas_Description.py` - this is a python function to share the description of a dataframe
-   * `Pandas_Plot.py` - this is a python function to plot a chart from the dataframe and save it as a png file
-   * `Test_Week2_Pandas.py` - this is a python code to test the functions defined - this function can also be called by the pytest module in the Makefile of the repository.
+   * `Polars_Description.py` - this is a python function to share the description of a dataframe
+   * `Polars_Plot.py` - this is a python function to plot a chart from the dataframe and save it as a png file
+   * `Test_Week3_Polars.py` - this is a python code to test the functions defined - this function can also be called by the pytest module in the Makefile of the repository.
 
      ![Make Test Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Successful_Test.png?raw=true)
 
