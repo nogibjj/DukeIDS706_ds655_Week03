@@ -1,4 +1,4 @@
-# DukeIDS706_DE Week 03 Assignment 
+# DukeIDS706_DE Week 03 Assignment [![Python Week 03 CI](https://github.com/nogibjj/DukeIDS706_ds655_Week03/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_Week03/actions/workflows/main.yml)
 
 This is my Submission for IDS 706 Data Engineering Week 03 - Descriptive Statistics using Polars. I used the same structure as Week 02 but replaced all the Pandas dataframes and functions to their corresponding Polars dataframes and functions
 
