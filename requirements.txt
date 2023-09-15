@@ -12,3 +12,4 @@ click
 pylint
 pytest
 polars
+plotly
