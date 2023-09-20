@@ -16,6 +16,8 @@ def PolarsPlot(df):
     ax.set(xlabel ="Sepal Length", ylabel = "Sepal Width", title ='Distribution of Sepal Length and Sepal Width across different Species \n Generated on - '
         + str(datetime.datetime.now()))
     #   Saving the chart as a png file in the resources folder
+    if os.path.isfile("./Resources/Data_Plot.png"):
+        os.remove("./Resources/Data_Plot.png")
     plt.savefig("./Resources/Data_Plot.png")
     
     print("Successfully saved the plot in Resources folder")
