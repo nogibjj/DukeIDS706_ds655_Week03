@@ -3,6 +3,7 @@ import polars as pl
 from Polars_Description import PolarsDesc
 from Polars_Plot import PolarsPlot
 
+
 def test_Polars():
     #   Reading Source Data from the Github Link
     DataSource_Link = "https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv"
@@ -20,7 +21,7 @@ def test_Polars():
     DataReference_Link = "./Resources/Iris_Data.csv"
     df_r = pl.read_csv(DataReference_Link)
 
-    assert(PolarsDesc(df_r).frame_equal(df_s.describe()))
+    assert PolarsDesc(df_r).frame_equal(df_s.describe())
 
 
 test_Polars()
